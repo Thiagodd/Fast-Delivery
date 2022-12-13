@@ -1,37 +1,47 @@
 # Fast Delivery
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/neliocursos/exemplo-readme/blob/main/LICENSE)
+
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/thiagodd/Fast-Delivery/blob/main/LICENSE)
 
 # Sobre o projeto
 
-https://mocklink.netlify.app
+https://fastdelivery-thiagodd.netlify.app/
 
-Big Game Survey é uma aplicação full stack web e mobile construída durante a 1ª edição da **Semana DevSuperior** (#sds1), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+O Sistema Fast Delivery é uma plataforma online que permite que os usuários façam pedidos de comida em restaurantes e tenham suas encomendas entregues em suas casas.
 
-A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
+Com o nosso sistema, os usuários podem pesquisar restaurantes disponíveis em sua região, visualizar menus e realizar pedidos de forma rápida e fácil. Também oferecemos opções de pagamento seguras e acompanhamento do pedido em tempo real.
 
 ## Layout mobile
+
 ![Mobile 1](https://fakeimg.pl/280x480/192841/) ![Mobile 2](https://fakeimg.pl/280x480/192841/)
 
 ## Layout web
+
 ![Web 1](https://fakeimg.pl/800x500/192841/)
 
 ![Web 2](https://fakeimg.pl/800x500/192841/)
 
 ## Modelo conceitual
+
 ![Modelo Conceitual]()
 
 # Tecnologias utilizadas
+
 ## Back end
+
 - Java
 - Spring Boot
 - JPA / Hibernate
 - Maven
+
 ## Front end
+
 - HTML / CSS / JS / TypeScript
 - ReactJS
 - Apex Charts
 - Expo
+
 ## Implantação em produção
+
 - Back end: AWS
 - Front end web: Netlify
 - Banco de dados: MySql
@@ -39,6 +49,7 @@ A aplicação consiste em uma pesquisa de preferência de games, onde os dados s
 # Como executar o projeto
 
 ## Back end
+
 Pré-requisitos: Java 17
 
 ```bash
@@ -53,6 +64,7 @@ cd backend
 ```
 
 ## Front end web
+
 Pré-requisitos: npm / yarn
 
 ```bash
