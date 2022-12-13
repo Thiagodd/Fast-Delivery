@@ -22,7 +22,7 @@ Com o nosso sistema, os usuários podem pesquisar restaurantes disponíveis em s
 
 ## Modelo conceitual
 
-![Modelo Conceitual]()
+![Modelo Conceitual](https://github.com/Thiagodd/Fast-Delivery/blob/main/Fast%20Delivery%20-%20Diagrama%20de%20classes.png?raw=true)
 
 # Tecnologias utilizadas
 
