@@ -52,10 +52,10 @@ public class RestaurantService {
     public Restaurant update(Long id, Restaurant restaurant){
         try{
             Restaurant currentRestaurant = this.findById(id);
-            BeanUtils.copyProperties(restaurant, currentRestaurant, "id");
+            BeanUtils.copyProperties(restaurant, currentRestaurant, "id", "paymentMethods");
             return this.insert(currentRestaurant);
         }catch (EntityNotFoundException exception){
-            throw new ResourceNotFoundException(String.format(MSG_ENTITY_NOT_FOUND));
+            throw new ResourceNotFoundException(String.format(MSG_ENTITY_NOT_FOUND, id));
         }
     }
 
